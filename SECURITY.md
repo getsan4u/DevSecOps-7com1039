@@ -2,20 +2,25 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.0.x   | :white_check_mark: |
+
+## Security Scanning
+
+This project implements comprehensive security scanning:
+
+- **SAST (Static Application Security Testing)**: SonarCloud analyzes source code for vulnerabilities
+- **SCA (Software Composition Analysis)**: Snyk scans dependencies for known vulnerabilities
+- **DAST (Dynamic Application Security Testing)**: OWASP ZAP performs runtime security testing
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you discover a security vulnerability, please:
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+1. **Do NOT** open a public issue
+2. Email the maintainer with details
+3. Include steps to reproduce and potential impact
+4. Allow 48 hours for initial response
+
+We take security seriously and will respond promptly to legitimate reports.
